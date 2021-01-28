@@ -595,7 +595,7 @@ h2,
   padding-right: 15px;
   padding-left: 0;
 
-  flew-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .footer-row-bottom {
