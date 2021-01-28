@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VendGo</title>
+	<!--styles-->
+	<link href="css/style.css" type="text/css" rel="stylesheet"/>
+	<link href="css/reset.css" type="text/css" rel="stylesheet"/>
+	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper">
+		    <div class="row header-head">
+		      <div class="header-box header-box_logo">
+		        <div class="header-box-img">
+		          <a href="/" class="logo-link"><img src="img/logo.png" alt="header img"></a>
+		        </div>
+		        <div class="header-box-text header-box-text_logo">
+		          <h1>Production and sale of profitable vending machines</h1>
+		        </div>
+		      </div>
+		      
+		      <div class="header-box header-box_email">
+		        <div class="header-box-img">
+		          <img src="img/header-mail.png" alt="header img">
+		        </div>
+		        <div class="header-box-text header-box-text_email">
+		          <p>Our mail <br>
+		            <a href="mailto:info@vendgo.ru">coffe@coffe.com</a></p>
+		        </div>
+		      </div>
+		      
+		      <div class="header-box header-box_adress">
+		        <div class="header-box-img">
+		          <img class="header-img_special" src="img/header-icon-map.png" alt="header img">
+		        </div>
+		        <div class="header-box-text header-box-text_adress">
+		          <p>Moscow, Central st.<br>
+		            <span>69/69, 6th floor, office 696</span>
+		          </p>
+		        </div>
+		      </div>
+		      <div class="header-box header-box_call">
+		        <a href="tel:/+71234567890" class="header-phone">+7 (123) 456-78-90</a>
+		        <button class="button-callback header-button" data-toggle="modal" data-target="#callbackModal">Call me back</button>
+		      </div>
+		    </div>
+			<div class="main-wrapper">
+				<div class="main">
+					<h2 class="section-title main-title">
+				        WANT YOUR COFFEE BUSINESS? FIND OUT FIRST 
+				    </h2>
+				    <p class="main-small">
+				        Automatic machines from $1000
+				    </p>
+				</div>
+				<div class="main-right">
+					
+					<div class="main-right-image">
+						<img src="img/autom.png" height="652" width="351" alt="">
+					</div>
+			        <form action="#" id="ctaForm" class="form cta-form" data-subject="" method="post">
+			            <div class="cta-form-inn form-inn">
+			                <h2 class="form-title cta-form__title">Leave a request</h2>
+			                <p class="form-text cta-form__text">
+							Our manager will contact <br> you soon
+			                </p>
+			                <div class="form-box form-box__name cta-form-box__name">
+			                    <label for="ctaForm__name" class="form-label form-label__name  cta-label__name"></label>
+			                    <input id="ctaForm__name" type="text" name="name" class="form-input form-input__name cta-input__name" placeholder="Enter your name:" required>
+			                </div>
+			                <!-- /.form-box__name -->
+			                <div class="form-box__input form-box__email class-form-box__email">
+			                	<label for="classForm__cta" class="form-label form-label__cta class-label__cta"></label>
+			                	<input id="classForm__cta" type="text" name="email" class="form-input form-input__email cta-input__email" placeholder="Enter your email:" required>
+			                </div>
+			             	<!-- /.form-box__cta -->
+			                <div class="form-box form-box__phone cta-form-box__phone">
+			                	<label for="ctaForm__phone" class="form-label form-label__phone  cta-label__phone"></label>
+			                	<input id="ctaForm__phone" type="tel" name="phone" class="form-input form-input__phone cta-input__phone" placeholder="Enter your phone:" required>
+			                </div>
+			                <!-- /.form-box__phone -->
+			                <div class="form-box form-box__button cta-form-box__button">
+			                	<button type="submit" class="button button-arrow_bottom form-button cta-button">SUBMIT</button>
+			                </div>
+			                <!-- /.form-box__button -->
+			                <div class="form-policy cta-form-policy">
+				                <label for="cta-questions-policy">
+				                    <input id="cta-questions-policy" class="cta-policy__check form-policy__check" type="checkbox" name="checkbox" checked required>
+				                    <span class="cta-policy__text form-policy__text">I accept the terms of <a href="#" class="privacy-popup"><span>the Privacy Policy</span></a>
+				                    </span>
+				                </label>
+			                </div>
+			                <!-- /.form-policy -->
+			            </div>
+			        </form>
+				</div>
+			</div>
+			
+			<div class="header-footer">
+				<div class="row footer-row footer-row-bottom">
+			      <div class="footer-col footer-col-legal">
+			        <p>
+					LLC «SOMECENTER» <br>
+			        TIN 1234567890 <br>
+			        </p>
+			      </div>
+			      <div class="footer-col-privacy footer-col">
+				        <div class="footer-col-privacy-block">
+				      		<p>© 2018. All rights reserved.</p> 
+				        	<button class="footer-privacy-button">Privacy Policy</button>
+				        </div>
+			      </div>
+			    </div>
+			</div>
+		</div>
+	</header>
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Validation -->
+<script src="js/libs/validate/jquery.validate.min.js"></script>
+<script src="js/libs/jquery.maskedinput.min.js"></script>
+<!-- main -->
+<script src="js/main/main.js"></script> 
+</body>
+</html>
