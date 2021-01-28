@@ -316,7 +316,6 @@ h2,
 
 .cta-form {
   max-width: 450px;
-  min-width: 450px;
   margin-top: 23px;
   margin-right: -30px;
 
@@ -337,6 +336,7 @@ h2,
 .form-title {
   font-family: "Panton-SemiBold", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
+  width: 377px;
 
   margin: 15px 0;
 }
@@ -820,5 +820,17 @@ h2,
 @media screen and (max-width: 560px) {
   .main {
     overflow: hidden;
+  }
+
+  .form-title {
+    width: auto;
+
+    margin: 0 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .cta-form {
+    background: none;
   }
 }
