@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: black;  
+  background-color: black;
 }
 
 .black-mask {
@@ -40,12 +40,13 @@ body {
 }
 
 .con-container {
-  /* display: none; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 80%;
+  padding-bottom: 30px;
 }
 
 .decription {
@@ -76,8 +77,9 @@ body {
   color: black;
 }
 
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
-  background: white!important;
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: white !important;
 }
 
 .webp00 {
@@ -86,4 +88,8 @@ body {
 
 .webp01 {
   background-image: url("../img/webp01_bg.jpg");
+}
+
+.webp02 {
+  background-image: url("../img/webp02_bg.jpg");
 }
