@@ -76,6 +76,10 @@ body {
   color: black;
 }
 
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: white!important;
+}
+
 .webp00 {
   background-image: url("../img/webp00_bg.jpg");
 }
