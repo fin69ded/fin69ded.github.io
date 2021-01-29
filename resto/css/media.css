@@ -1,0 +1,50 @@
+/* header */
+@media all and (max-width: 724px)
+{
+    .navigation-navbars
+    {
+        display: block;
+    }
+
+    .navigation-header-right
+    {
+        display: none;
+        float: left;
+
+        width: 100%;
+
+        border-bottom: 1px rgba(255, 255, 255, .40) solid;
+    }
+
+    .navigation-header-left
+    {
+        width: 100%;
+        float: none;
+    }
+
+    .navigation-header-punkts
+    {
+        display: block;
+
+        padding-left: 24px;
+    }
+
+    .navigation-header
+    {
+        background-color: rgba(0, 0, 0, .7);
+    }
+}
+
+/* header text */
+@media all and (max-width: 720px)
+{
+    .header-text-general
+    {
+        font-size: 4.4em;
+    }
+    
+    .header-text-subgeneral
+    {
+        font-size: 1.3em;
+    }
+}

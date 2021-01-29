@@ -1,0 +1,83 @@
+ @font-face
+{
+    font-family: 'Raleway-Light';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Raleway-Light/Raleway-Light.eot');
+    src: url('../fonts/Raleway-Light/Raleway-Light.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/Raleway-Light/Raleway-Light.woff') format('woff'),
+    url('../fonts/Raleway-Light/Raleway-Light.ttf') format('truetype');
+}
+
+ @font-face
+{
+    font-family: 'Raleway-Medium';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Raleway-Medium/Raleway-Medium.eot');
+    src: url('../fonts/Raleway-Medium/Raleway-Medium.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/Raleway-Medium/Raleway-Medium.woff') format('woff'),
+    url('../fonts/Raleway-Medium/Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Handstyles-Regular';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Handstyles-Regular/Handstyles-Regular.eot');
+    src: url('../fonts/Handstyles-Regular/Handstyles-Regular.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/Handstyles-Regular/Handstyles-Regular.woff') format('woff'),
+    url('../fonts/Handstyles-Regular/Handstyles-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Roboto-Light';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Roboto-Light/Roboto-Light.eot');
+    src: url('../fonts/Roboto-Light/Roboto-Light.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/Roboto-Light/Roboto-Light.woff') format('woff'),
+    url('../fonts/Roboto-Light/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Roboto-Regular/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/Roboto-Regular/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Semilla';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Semilla/Semilla.eot');
+    src: url('../fonts/Semilla/Semilla.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/Semilla/Semilla.woff') format('woff'),
+    url('../fonts/Semilla/Semilla.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Montserrat-Light';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Montserrat-Light/Montserrat-Light.eot');
+    src: url('../fonts/Montserrat-Light/Montserrat-Light.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/Montserrat-Light/Montserrat-Light.woff') format('woff'),
+    url('../fonts/Montserrat-Light/Montserrat-Light.ttf') format('truetype');
+}
