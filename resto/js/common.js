@@ -1,12 +1,12 @@
 //preloader
-document.addEventListener("DOMContentLoaded", () => {
+window.onload = () => {
   setTimeout(() => {
     var preloader = document.getElementById('preloader');
     if (!preloader.classList.contains('done')) {
       preloader.classList.add('done');
     }
   }, 1000);
-})
+}
 
 //carousel header
 $(document).ready(function(){
