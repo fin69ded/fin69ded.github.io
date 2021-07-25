@@ -1,12 +1,13 @@
 // preloader
-$(document).ready(function(){
-  setTimeout(function () {
-    var preloader = document.getElementById('preloader');
-    if(!preloader.classList.contains('preloader-done')){
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    var preloader = document.querySelector('#preloader');
+    if (!preloader.classList.contains('preloader-done')) {
       preloader.classList.add('preloader-done');
     }
-  }, 4000);
+  }, 1000);
 });
+
 
 //scroll top at inst
 $(document).ready(function(){
