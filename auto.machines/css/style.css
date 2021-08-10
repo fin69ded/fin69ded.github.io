@@ -523,8 +523,8 @@ h2,
   color: #372609;
   background: url(../img/btn.png);
   background-position: center center;
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .button:after {
