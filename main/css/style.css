@@ -170,7 +170,7 @@ body {
   }
 
   .skills-content_headline {
-    font-size: 70px;
+    font-size: 60px;
     line-height: normal;
     text-align: center;
     white-space: normal;
@@ -200,5 +200,9 @@ body {
 @media all and (max-width: 460px) {
   .col-12 {
     padding: 0;
+  }
+
+  .skills-content_headline {
+    font-size: 40px;
   }
 }
