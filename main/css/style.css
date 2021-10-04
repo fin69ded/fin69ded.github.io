@@ -224,6 +224,55 @@ body {
   box-sizing: border-box;
   border-radius: 33px;
   margin-bottom: 64px;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.works-item_wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 33px;
+  opacity: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  transition: all 0.8s;
+
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.works-item_wrapper img {
+  width: 68px;
+  height: 68px;
+}
+
+.works-item_wrapper a {
+  margin: 0 auto 30px auto;
+}
+
+.works-item:hover .works-item_wrapper,
+.works-item:hover .works-item_wrapper p,
+.works-item:hover .works-item_wrapper a {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.works-item:hover .works-item_wrapper p,
+.works-item:hover .works-item_wrapper a {
+  transition-delay: 0.2s;
+}
+
+.works-item_wrapper p {
+  padding: 0 40px;
+}
+
+.works-item_wrapper p,
+.works-item_wrapper a {
+  transform: translate(0, 200px);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 .sidebar-content_works {
@@ -266,6 +315,7 @@ body {
   .works {
     width: 100%;
     justify-content: space-around;
+    top: 180px;
   }
 
   .works-item {
