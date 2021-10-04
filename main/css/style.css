@@ -16,6 +16,10 @@ body {
   padding: 0 40px;
 }
 
+/* ---------------------- */
+/* first screen --- about */
+/* ---------------------- */
+
 .first-screen {
   height: 100vh;
 }
@@ -204,5 +208,82 @@ body {
 
   .skills-content_headline {
     font-size: 40px;
+  }
+}
+
+/* ----------------------- */
+/* second screen --- works */
+/* ----------------------- */
+
+.works-item {
+  width: 439px;
+  height: 292px;
+
+  background: #3d3d3d;
+  border: 5px solid #cfcfcf;
+  box-sizing: border-box;
+  border-radius: 33px;
+  margin-bottom: 64px;
+}
+
+.sidebar-content_works {
+  margin-top: 80px;
+}
+
+.second-screen {
+  position: relative;
+}
+
+.sidebar_works {
+  float: none;
+  align-items: flex-start;
+}
+
+.works {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transform: translate(-50%, 0);
+}
+
+.second-screen_wrapper {
+  height: 100%;
+}
+
+@media all and (max-width: 1160px) {
+  .sidebar-content_works {
+    margin-top: 0;
+  }
+
+  .second-screen_wrapper {
+    background-color: #2c2c2c;
+  }
+
+  .works {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .works-item {
+    margin: 0 15px 64px 15px;
+  }
+}
+
+@media all and (max-width: 948px) {
+  .works-item {
+    width: 400px;
+    height: 260px;
+
+    margin-bottom: 44px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  .works-item {
+    margin: 0 20px 44px 20px;
   }
 }
