@@ -69,9 +69,11 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener(el, () => {
     const secondScreen = document.querySelectorAll(".second-screen");
     const works = document.querySelectorAll(".works");
+    const worksHeadline = document.querySelectorAll(".sidebar-content_works");
 
     for (let i = 0; i < secondScreen.length; i++) {
       secondScreen[i].style.height = `${works[i].clientHeight + 236}px`;
+      works[i].style.top = `${worksHeadline[i].clientHeight + 100}px`;
     }
   });
 });
