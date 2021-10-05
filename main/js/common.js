@@ -49,16 +49,18 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     }
 
-    const scrollToTop = () => {
-      const c = document.documentElement.scrollTop || document.body.scrollTop;
-      if (c > 0) {
-        window.requestAnimationFrame(scrollToTop);
-        window.scrollTo(0, c - c / 12);
-      }
-    };
-
-    scrollUp.addEventListener("click", () => {
-      scrollToTop();
+    /* soft scroll */
+    $(document).ready(function () {
+      $(scrollUp).click(function () {
+        var destination = 0;
+        jQuery("html:not(:animated), body:not(:animated)").animate(
+          {
+            scrollTop: destination,
+          },
+          600
+        );
+        return false;
+      });
     });
   }, 1000);
 });
