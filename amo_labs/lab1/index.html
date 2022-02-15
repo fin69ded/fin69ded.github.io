@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main__headline">
+      <h1>Lab 1</h1>
+      <h2>
+        Dmitry Kaprarenko
+        <span class="main__headline-circle"></span>
+        <span>IO-02</span>
+      </h2>
+    </div>
+    <div class="tasks">
+      <div class="tasks__body">
+        <div class="tasks__item">
+          <h3>Task 1</h3>
+          <img class="tasks__img-1" src="01.png" alt="" />
+          <form onsubmit="return false">
+            <p>Value a</p>
+            <input required id="task1_a" type="number" placeholder="a" />
+            <p>Value b</p>
+            <input required id="task1_b" type="number" placeholder="b" />
+            <p>Value c</p>
+            <input required id="task1_c" type="number" placeholder="c" />
+            <button id="task1_button">Calculate</button>
+            <div id="task1_err" class="error"></div>
+            <div id="task1_resl" class="result">Y1 = <span></span></div>
+          </form>
+        </div>
+        <div class="tasks__item">
+          <h3>Task 2</h3>
+          <img class="tasks__img-2" src="02.png" alt="" />
+          <form onsubmit="return false">
+            <p>Value a</p>
+            <input required id="task2_a" type="number" placeholder="a" />
+            <p>Value b</p>
+            <input required id="task2_b" type="number" placeholder="b" />
+            <p>Value c</p>
+            <input required id="task2_c" type="number" placeholder="c" />
+            <p>Value d</p>
+            <input required id="task2_d" type="number" placeholder="d" />
+            <button id="task2_button">Calculate</button>
+            <div id="task2_err" class="error"></div>
+            <div id="task2_resl" class="result">y = <span></span></div>
+          </form>
+        </div>
+        <div class="tasks__item">
+          <h3>Task 3</h3>
+          <img class="tasks__img-3" src="03.png" alt="" />
+          <p style="padding-bottom: 10px; font-weight: 500">Values will be taken randomly</p>
+          <form onsubmit="return false">
+            <p>Value n</p>
+            <input id="task3_n" min="1" type="number" placeholder="n" />
+            <p>Value a</p>
+            <div id="task3_a" class="task__random-numbers">a</div>
+            <p>Value b</p>
+            <div id="task3_b" class="task__random-numbers">b</div>
+            <p>Value c</p>
+            <div id="task3_c" class="task__random-numbers">c</div>
+            <p>Value d</p>
+            <div id="task3_d" class="task__random-numbers">d</div>
+            <button id="task3_button">Calculate</button>
+            <div id="task3_err" class="error"></div>
+            <div id="task3_resl" class="result">f = <span></span></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="common.js"></script>
+</html>
