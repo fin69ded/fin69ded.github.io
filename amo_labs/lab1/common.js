@@ -124,7 +124,7 @@ window.onload = () => {
       t3_c.style.color = "rgba(255, 255, 255, 0.6)";
       t3_d.style.color = "rgba(255, 255, 255, 0.6)";
 
-      for (let i = 0; i < t3_n_val; i++) {
+      for (let i = 1; i <= t3_n_val; i++) {
         task3_result += Math.sqrt(t3_d_vs[i] + Math.sqrt(t3_c_vs[i] + Math.sqrt(t3_a_vs[i] + t3_b_vs[i])));
       }
 
