@@ -15,12 +15,14 @@ window.onload = () => {
 
   task1_button.addEventListener("click", () => {
     const task1_a_val = parseFloat(task1_a.value);
-    const task1_b_val = parseFloat(task1_b.value);
-    const task1_c_val = parseFloat(task1_c.value);
+    const task1_b_val = task1_b.value;
+    const task1_c_val = task1_c.value;
     task1_resl_block.style.display = "none";
     task1_err.style.display = "none";
 
-    if (task1_a_val !== "" && task1_b_val !== "" && task1_c_val !== "") {
+    console.dir(task1_a_val);
+
+    if (!isNaN(task1_a_val) && !isNaN(task1_b_val) && !isNaN(task1_c_val)) {
       if (task1_b_val == 0) {
         task1_err.innerHTML = "Division by Zero";
         task1_err.style.display = "block";
@@ -52,7 +54,7 @@ window.onload = () => {
     task2_err.style.display = "none";
     task2_resl_block.style.display = "none";
 
-    if (t2_a_val !== "" && t2_b_val !== "" && t2_c_val !== "" && t2_d_val !== "") {
+    if (!isNaN(t2_a_val) && !isNaN(t2_b_val) && !isNaN(t2_c_val) && !isNaN(t2_d_val)) {
       if (t2_b_val > 4 && t2_c_val > 4 && t2_d_val > 4) {
         task2_result =
           t2_a_val / t2_b_val + (t2_a_val * t2_b_val) / t2_c_val + (t2_a_val * t2_b_val * t2_c_val) / t2_d_val;
@@ -86,7 +88,7 @@ window.onload = () => {
     }
   });
 
-  /// TASK 2 ///
+  /// TASK 3 ///
   const task3_button = document.getElementById("task3_button");
   const t3_n = document.getElementById("task3_n");
   const t3_a = document.getElementById("task3_a");
@@ -105,7 +107,7 @@ window.onload = () => {
     let t3_c_vs = [];
     let t3_d_vs = [];
 
-    if (t3_n_val !== "" && t3_n_val >= 1) {
+    if (!isNaN(t3_n_val) && t3_n_val >= 1) {
       for (let i = 0; i < t3_n_val; i++) {
         t3_a_vs.push(getRandomInt(1, 99));
         t3_b_vs.push(getRandomInt(1, 99));
