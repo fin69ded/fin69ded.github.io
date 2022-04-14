@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main__headline">
+      <h1>Lab 2</h1>
+      <h2>
+        Dmitry Kaprarenko
+        <span class="main__headline-circle"></span>
+        <span>IO-02</span>
+      </h2>
+    </div>
+    <div class="tasks">
+      <div class="tasks__body">
+        <div class="tasks__item">
+          <h3 style="padding-bottom: 10px">Hoare's sort</h3>
+          <p style="padding-bottom: 10px; font-weight: 500">Values will be taken randomly</p>
+
+          <form onsubmit="return false">
+            <p>Array size</p>
+            <input id="random_n" min="1" type="number" placeholder="n" />
+            <button id="random_button">Calculate</button>
+            <div class="rd-rs-show">
+              <p style="padding-top: 24px">Array:</p>
+              <div id="random_arr" class="task__random-numbers"></div>
+              <p>Sorted array:</p>
+              <div id="random_sorted" class="task__random-numbers"></div>
+              <p>Sorting time (time):</p>
+              <div id="random_time" class="task__random-numbers"></div>
+              <p>Sorting time (computational):</p>
+              <div id="comp_time" class="task__random-numbers"></div>
+            </div>
+            <div id="random_err" class="error"></div>
+          </form>
+        </div>
+        <div class="tasks__item">
+          <h3 style="padding-bottom: 10px">Hoare's sort</h3>
+          <p style="padding-bottom: 10px; font-weight: 500">Manual entry of values</p>
+
+          <form onsubmit="return false">
+            <p style="padding-bottom: 5px">Array (enter numbers <br />separated by spaces)</p>
+            <!-- <input id="manl_n" min="1" type="textarea" placeholder="n" /> -->
+            <textarea style="height: 34px" id="manl_n" oninput="auto_grow(this)" placeholder="Array"></textarea>
+            <button id="manl_button">Calculate</button>
+            <br />
+            <input type="file" id="file" style="display: none" />
+            <button id="upload_button" name="button" value="Upload" onclick="thisFileUpload()">Upload</button>
+            <div class="manl-rs-show">
+              <p style="padding-top: 24px">Sorted array:</p>
+              <div id="manl_sorted" class="task__random-numbers">a</div>
+              <p>Sorting time (time):</p>
+              <div id="manl_time" class="task__random-numbers">a</div>
+              <p>Sorting time (computational):</p>
+              <div id="manl_comp_time" class="task__random-numbers">a</div>
+            </div>
+            <div id="manl_err" class="error"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="common.js"></script>
+</html>

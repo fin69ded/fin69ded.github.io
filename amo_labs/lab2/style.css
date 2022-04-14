@@ -1,0 +1,130 @@
+.tasks__item img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.tasks__img-3 {
+  max-width: 300px;
+}
+
+.tasks__item input, .tasks__item textarea {
+  margin-bottom: 10px;
+  width: 200px;
+  font-size: 18px;
+  padding: 6px 12px;
+  background-color: #3d3d3d;
+  color: #fff;
+  border: none;
+  font-family: Montserrat, Arial, serif;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.task__random-numbers {
+  margin-bottom: 10px;
+  width: 200px;
+  resize: none;
+  overflow: auto;
+  font-size: 18px;
+  padding: 6px 12px;
+  background-color: #3d3d3d;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: left;
+
+  border: none;
+  font-family: Montserrat, Arial, serif;
+  margin: 0 auto 10px auto;
+}
+
+.tasks__item input:focus {
+  border: none;
+  outline: none;
+}
+
+.tasks__item button, .tasks__item .button-file {
+  font-family: Montserrat, Arial, serif;
+  width: 200px;
+  font-size: 18px;
+  padding: 6px 12px;
+  margin-top: 20px;
+
+  background-color: #585858;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.tasks__item button:hover {
+  cursor: pointer;
+}
+
+.tasks p {
+  /* margin-top: 10px; */
+  margin-bottom: 4px;
+}
+
+.tasks {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto 20px auto;
+  padding: 0 15px;
+}
+
+.tasks__body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.tasks__item {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 740px) {
+  .tasks__item {
+    width: 100%;
+  }
+}
+
+.error {
+  display: none;
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: Montserrat, Arial, serif;
+  color: rgb(231, 50, 50);
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.result {
+  display: none;
+  margin: 20px 0;
+  font-size: 18px;
+  font-family: Montserrat, Arial, serif;
+  color: #fff;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.result span {
+  font-weight: 600;
+}
+
+.rd-rs-show {
+  display: none;
+}
+
+.manl-rs-show {
+  display: none;
+}
+
+textarea {
+  resize: none;
+  overflow: hidden;
+  outline: none;
+}

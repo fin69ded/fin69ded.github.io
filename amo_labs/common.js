@@ -1,5 +1,5 @@
 window.onload = function () {
-  const labs_ready = 1;
+  const labs_ready = 2;
   const items = [];
   const links = [];
   const container = document.querySelector(".labs__body");
